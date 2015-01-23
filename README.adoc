@@ -1,4 +1,4 @@
-# Cisco Nexus
+# Zertico Monitor System
 
 OpenNMS configuration module for Zertico Monitoring System devices.
 
