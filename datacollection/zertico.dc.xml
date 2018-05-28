@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<datacollection-group name="Zertico">
+<datacollection-group xmlns="https://xmlns.opennms.org/xsd/config/datacollection" name="Zertico">
     <resourceType name="intSenAnId" label="Zertico Internal Sensors Analog" resourceLabel="${intSenAnName}">
         <persistenceSelectorStrategy class="org.opennms.netmgt.collectd.PersistAllSelectorStrategy"/>
         <storageStrategy class="org.opennms.netmgt.dao.support.IndexStorageStrategy"/>
