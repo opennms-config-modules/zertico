@@ -22,6 +22,7 @@ git clone https://github.com/opennms-config-modules/zertico.git
 [source, bash]
 ----
 cp ${HOME}/opennms-config-workspace/zertico/datacollection/*.xml ${OPENNMS_HOME}/etc/datacollection
+cp ${HOME}/opennms-config-workspace/zertico/resource-types.d/*.xml ${OPENNMS_HOME}/etc/resource-types.d
 ----
 
 .Include in datacollection-config.xml
